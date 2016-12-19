@@ -1,6 +1,9 @@
 # Used to read WARC files
 warc==0.2.1
 
+# trying to fix dependeny bug for cosr-ops
+lxml==3.6.0
+
 # Used for reading WARC (gziped) files as a stream
 -e git+git://github.com/commoncrawl/gzipstream.git@59fa1e1e31e5278dc11586f7519392212dbd2549#egg=gzipstream
 
